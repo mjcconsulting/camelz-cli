@@ -1,0 +1,40 @@
+{
+  "$id": "https://schemas.camelz.io/Systems.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Camelz Framework Systems data file",
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/System"
+  },
+  "uniqueItems": true,
+  "definitions": {
+    "System": {
+      "type": "object",
+      "required": [ "Name", "Code" ],
+      "properties": {
+        "Name": {
+          "type": "string",
+          "description": "The Name of the System.",
+          "minLength": 2,
+          "maxLength": 32,
+          "pattern": "^([A-Z][a-z0-9]{0,31})*$"
+        },
+        "Code": {
+          "type": "string",
+          "description": "The Code of the System.",
+          "pattern": "^[a-z][a-z0-9]{0,5}$"
+        },
+        "Default": {
+          "type": "boolean",
+          "description": "An optional flag to indicate the default System. Defaults to false. There should only be one Default System."
+        },
+        "Source": {
+          "type": "string",
+          "description": "The Source of the System.",
+          "enum": [ "Default", "Common", "User" ]
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

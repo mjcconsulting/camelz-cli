@@ -1,0 +1,47 @@
+{
+  "name": "camelz-cli",
+  "version": "0.0.1",
+  "description": "Command line tool for the Camelz Framework",
+  "main": "bin/camelz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjcconsulting/camelz-cli.git"
+  },
+  "keywords": [
+    "Camelz",
+    "Framework",
+    "CLI"
+  ],
+  "bin": {
+    "camelz": "bin/camelz.js"
+  },
+  "author": "Michael Crawford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjcconsulting/camelz-cli/issues"
+  },
+  "homepage": "https://github.com/mjcconsulting/camelz-cli#readme",
+  "dependencies": {
+    "ajv": "^6.10.2",
+    "async-prompt": "^1.0.1",
+    "aws-sdk": "^2.517.0",
+    "chalk": "^2.4.2",
+    "child-process": "^1.0.2",
+    "clone": "^2.1.2",
+    "commander": "^2.20.0",
+    "debug": "^4.1.1",
+    "fs": "0.0.1-security",
+    "jmespath": "^0.15.0",
+    "js-yaml": "^3.13.1",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "table": "^5.4.6",
+    "yaml-cfn": "^0.2.2"
+  },
+  "devDependencies": {
+    "ajv-cli": "^3.0.0"
+  }
+}

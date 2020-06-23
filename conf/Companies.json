@@ -1,0 +1,4 @@
+[
+  { "Name": "Demo",   "Code": "demo", "Default": false },
+  { "Name": "Camelz", "Code": "cmlz", "Default": true  }
+]

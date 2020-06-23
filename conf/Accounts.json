@@ -1,0 +1,13 @@
+[
+  { "Name": "Organization", "LongName": "Camelz Prototype Organization", "Alias": "camelz",  "Id": "000000000000", "Default": false },
+  { "Name": "Jumpstart",    "LongName": "Camelz Prototype Jumpstart",    "Alias": "camelzj", "Id": "000000000000", "Default": true  },
+  { "Name": "Management",   "LongName": "Camelz Prototype Management",   "Alias": "camelzm", "Id": "000000000000", "Default": false },
+  { "Name": "Log",          "LongName": "Camelz Prototype Log",          "Alias": "camelzl", "Id": "000000000000", "Default": false },
+  { "Name": "Recovery",     "LongName": "Camelz Prototype Recovery",     "Alias": "camelzr", "Id": "000000000000", "Default": false },
+  { "Name": "Build",        "LongName": "Camelz Prototype Build",        "Alias": "camelzb", "Id": "000000000000", "Default": false },
+  { "Name": "Core",         "LongName": "Camelz Prototype Core",         "Alias": "camelzc", "Id": "000000000000", "Default": false },
+  { "Name": "Production",   "LongName": "Camelz Prototype Production",   "Alias": "camelzp", "Id": "000000000000", "Default": false },
+  { "Name": "Staging",      "LongName": "Camelz Prototype Staging",      "Alias": "camelzs", "Id": "000000000000", "Default": false },
+  { "Name": "Testing",      "LongName": "Camelz Prototype Testing",      "Alias": "camelzt", "Id": "000000000000", "Default": false },
+  { "Name": "Development",  "LongName": "Camelz Prototype Development",  "Alias": "camelzd", "Id": "000000000000", "Default": false }
+]

@@ -1,0 +1,7 @@
+[
+  { "Name": "bootstrapadministrator", "FullName": "Bootstrap Administrator", "Email": "bootstrapadministrator@camelz.io", "Phone": "+00000000000", "Default": true  },
+  { "Name": "administrator",          "FullName": "Administrator",           "Email": "administrator@camelz.io",          "Phone": "+00000000000", "Default": false },
+  { "Name": "developer",              "FullName": "Developer",               "Email": "developer@camelz.io",              "Phone": "+00000000000", "Default": false },
+  { "Name": "manager",                "FullName": "Manager",                 "Email": "manager@camelz.io",                "Phone": "+00000000000", "Default": false },
+  { "Name": "user",                   "FullName": "User",                    "Email": "user@camelz.io",                   "Phone": "+00000000000", "Default": false }
+]
