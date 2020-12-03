@@ -1,5 +1,5 @@
-# Camelz Framework CLI
-A command line utility for the Camelz Framework.
+# CAMELZ CLI
+Cross-Account Multi-Environment Landing Zones Framework Command-Line Utility.
 
 This program is a management utility to build an architecture based on CloudFormation which may
 include multiple Systems, running in multiple Accounts, associated with different Environments,
