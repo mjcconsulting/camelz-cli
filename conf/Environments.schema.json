@@ -14,12 +14,12 @@
         "Name": {
           "type": "string",
           "description": "The Name of the Environment.",
-          "enum": [ "Audit", "Build", "Core", "Development", "Example", "Identity", "Log", "Management", "Production", "QA", "Recovery", "Staging", "Testing", "UAT" ]
+          "enum": [ "Audit", "Build", "Core", "Development", "Example", "Identity", "Log", "Management", "NonProduction", "Organization", "Production", "QA", "Recovery", "Staging", "Testing", "UAT", "Experimental" ]
         },
         "Code": {
           "type": "string",
           "description": "The Code of the Environment.",
-          "enum": [ "a", "b", "c", "d", "e", "i", "l", "m", "p", "q", "r", "s", "t", "u" ]
+          "enum": [ "a", "b", "c", "d", "e", "i", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "x" ]
         },
         "Active": {
           "type": "boolean",

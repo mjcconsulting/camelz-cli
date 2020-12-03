@@ -14,7 +14,7 @@
         "Name": {
           "type": "string",
           "description": "The Name of the Account.",
-          "enum": [ "Organization", "Jumpstart", "Management", "Identity", "Log", "Recovery", "Build", "Core", "Production", "Staging", "UAT", "QA", "Testing", "Development" ]
+          "enum": [ "Organization", "Jumpstart", "Management", "Core", "Log", "Build", "Production", "NonProduction", "Recovery", "Staging", "UAT", "QA", "Testing", "Development" ]
         },
         "LongName": {
           "type": "string",
